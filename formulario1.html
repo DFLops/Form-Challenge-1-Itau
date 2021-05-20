@@ -14,9 +14,10 @@
     <!--Início Formulário-->
 
     <div class="divtest">
-        <form id="formulario">
+        <form id="formulario" onsubmit="formSubmit()" autocomplete="off">
 
             <div class="formulariodiv">
+
                 <!--Nome Completo-->
 
                 <div>
@@ -36,14 +37,15 @@
 
                 <div>
                     <text>Gênero</text><br>
-                    <input type="radio" id="man" name="gender" value="man" checked></input>
+                    <input type="radio" id="man" name="gender" value="man" checked onclick="insertGender()"></input>
                     <label for="man">Homem</label><br>
-                    <input type="radio" id="woman" name="gender" value="woman"></input>
+                    <input type="radio" id="woman" name="gender" value="woman" onclick="insertGender()"></input>
                     <label for="woman">Mulher</label><br>
-                    <input type="radio" id="nonBinary" name="gender" value="woman"></input>
+                    <input type="radio" id="nonBinary" name="gender" value="woman" onclick="insertGender()"></input>
                     <label for="nonBinary">Não-Binárie</label><br>
-                    <input type="radio" id="genderOther" name="gender"></input>
+                    <input type="radio" id="genderOther" name="gender" onclick="insertGender()"></input>
                     <label for="genderOther">Outro</label><br>
+                    <input type="text" name="gender" id="genderOtherInput" disabled></input>
                 </div>
 
                 <!--Endereço-->
@@ -93,18 +95,8 @@
 
                 <div>
                     <label for="phoneNumber">Telefone para contato</label><br>
-                    <input type="tel" id="phoneNumber" name="phoneNumber"></input>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" required></input>
                 </div>
-
-                <!--Teste-->
-
-                <!--<div>
-                    <label for="cpfTest">CPF2</label><br>
-                    <input type="text" id="cpfTest" name="cpfTest" size="3" maxlength="3"></input>
-                    <input type="text" id="cpfTest" name="cpfTest" size="3" maxlength="3"></input>
-                    <input type="text" id="cpfTest" name="cpfTest" size="3" maxlength="3"></input>
-                    <input type="text" id="cpfTest" name="cpfTest" size="2" maxlength="3"></input>
-                </div>-->
 
                 <!--Enviar-->
 
