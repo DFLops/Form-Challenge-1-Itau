@@ -1,0 +1,133 @@
+<html lang="pt-BR">
+
+<head>
+    <title>"Formulário"</title>
+    <link rel="stylesheet" href="formulario1visual.css">
+</head>
+
+<body>
+
+    <!--Título-->
+
+    <h1 id="formTitle">Formulário</h1>
+
+    <!--Início Formulário-->
+
+    <div class="divtest">
+        <form id="formulario">
+
+            <div class="formulariodiv">
+                <!--Nome Completo-->
+
+                <div>
+                    <label for="nomeCompleto">Nome completo</label><br>
+                    <input type="text" id="nomeCompleto" name="nomeCompleto" required></input>
+                </div>
+
+                <!--CPF-->
+
+                <div>
+                    <label for="cpfEntrada">CPF</label><br>
+                    <input type="text" id="cpfEntrada" name="cpfEntrada" size="11" maxlength="11"
+                        placeholder="123.456.789-01" required></input>
+                </div>
+
+                <!--Gênero-->
+
+                <div>
+                    <text>Gênero</text><br>
+                    <input type="radio" id="man" name="gender" value="man" checked></input>
+                    <label for="man">Homem</label><br>
+                    <input type="radio" id="woman" name="gender" value="woman"></input>
+                    <label for="woman">Mulher</label><br>
+                    <input type="radio" id="nonBinary" name="gender" value="woman"></input>
+                    <label for="nonBinary">Não-Binárie</label><br>
+                    <input type="radio" id="genderOther" name="gender"></input>
+                    <label for="genderOther">Outro</label><br>
+                </div>
+
+                <!--Endereço-->
+
+                <div>
+                    <label for="endereco1">Endereço</label><br>
+                    <input type="text" id="endereco1" name="endereco1" required></input><br>
+                </div>
+
+                <!--Número Endereço-->
+
+                <div>
+                    <label for="endereco2">Número da residência</label><br>
+                    <input type="text" id="endereco2" name="endereco2" required></input><br>
+                </div>
+
+                <!--Complemento Endereço-->
+
+                <div>
+                    <label for="endereco3">Complemento (opcional)</label><br>
+                    <input type="text" id="endereco3" name="endereco3" placeholder="Apartamento, edifício, andar, etc.">
+                    </input><br>
+                </div>
+
+                <!--Bairro-->
+
+                <div>
+                    <label for="bairro">Bairro</label><br>
+                    <input type="text" id="bairro" name="bairro" required></input><br>
+                </div>
+
+                <!--Cidade-->
+
+                <div>
+                    <label for="cidade">Cidade</label><br>
+                    <input type="text" id="cidade" name="cidade" required></input><br>
+                </div>
+
+                <!--Estado/Província/Região-->
+
+                <div>
+                    <label for="estado">Estado/Província/Região</label><br>
+                    <input type="text" id="estado" name="estado" required></input><br>
+                </div>
+
+                <!--Telefone-->
+
+                <div>
+                    <label for="phoneNumber">Telefone para contato</label><br>
+                    <input type="tel" id="phoneNumber" name="phoneNumber"></input>
+                </div>
+
+                <!--Teste-->
+
+                <!--<div>
+                    <label for="cpfTest">CPF2</label><br>
+                    <input type="text" id="cpfTest" name="cpfTest" size="3" maxlength="3"></input>
+                    <input type="text" id="cpfTest" name="cpfTest" size="3" maxlength="3"></input>
+                    <input type="text" id="cpfTest" name="cpfTest" size="3" maxlength="3"></input>
+                    <input type="text" id="cpfTest" name="cpfTest" size="2" maxlength="3"></input>
+                </div>-->
+
+                <!--Enviar-->
+
+                <div>
+                    <input type="submit"></input>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!--Fim Formulário-->
+
+    <!--Aviso-->
+
+    <p id="formTitle2">
+        <text>Obs: Este formulário é apenas uma demonstração,
+            e não armazena dados fornecidos.
+        </text>
+    </p>
+
+    <!--Script-->
+    <script src="./formulario1script.js"></script>
+</body>
+
+
+</html>
