@@ -11,8 +11,13 @@ Ao preencher o cadastro e pressionar o botão "Enviar", uma janela de alerta apa
 
 Além de utilizar o conhecimento ganho de aulas no programa da gama academy, muitas das ideias dos códigos deste projeto vieram de pesquisas em locais como:
 https://www.w3schools.com/js/js_output.asp
+
 https://www.w3schools.com/html/html_form_attributes.asp
+
 https://www.geeksforgeeks.org/html-dom-input-radio-checked-property/
+
 https://stackoverflow.com/questions/13831601/disabling-and-enabling-a-html-input-button/13831737
+
 https://www.w3schools.com/jsref/event_onsubmit.asp
+
 https://www.w3schools.com/js/js_if_else.asp
